@@ -33,16 +33,16 @@ class Confirm extends Component {
 						<ListItem primaryText='Bio' secondaryText={bio} />
 					</List>
 					<RaisedButton
-						label='Continue & Continue'
-						primary={true}
-						style={styles.button}
-						onClick={this.continue}
-					/>
-					<RaisedButton
 						label='Back'
 						primary={false}
 						style={styles.button}
 						onClick={this.back}
+					/>
+					<RaisedButton
+						label='Submit'
+						primary={true}
+						style={styles.button}
+						onClick={this.continue}
 					/>
 				</Fragment>
 			</MuiThemeProvider>
